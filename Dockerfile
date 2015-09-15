@@ -14,4 +14,4 @@ RUN go install github.com/anderstall/webserver
 ENTRYPOINT /go/bin/webserver
 
 # Document that the service listens on port 8080.
-EXPOSE 8088
+EXPOSE 8080
